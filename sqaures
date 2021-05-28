@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+    n=int(input())
+for counter in range(0,n):
+    a = counter*counter
+    if counter >= n:
+        break
+    print(a)
